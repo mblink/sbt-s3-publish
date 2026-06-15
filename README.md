@@ -1,4 +1,4 @@
-# sbt-git-publish
+# sbt-s3-publish
 
 Adds support for publishing SBT projects to a local directory and then pushing them to an S3 bucket.
 
