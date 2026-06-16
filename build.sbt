@@ -1,6 +1,6 @@
 Global / onChangedBuildSource := ReloadOnSourceChanges
 
-val scala2 = "2.12.21"
+val scala2 = "2.13.18"
 val scala3 = "3.8.4"
 
 ThisBuild / version := "0.0.1"
