@@ -32,7 +32,7 @@ lazy val sbtS3Publish = projectMatrix.in(file("plugin"))
     name := "sbt-s3-publish",
     pluginCrossBuild / sbtVersion := (scalaBinaryVersion.value match {
       case "2.12" => "1.9.0"
-      case _ => "2.0.0"
+      case _ => sbtVersion.value
     }),
     s3PublishBucket := "bondlink-maven-repo",
     libraryDependencies += "software.amazon.awssdk" % "s3" % "2.46.11",
