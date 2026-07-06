@@ -34,6 +34,6 @@ lazy val sbtS3Publish = projectMatrix.in(file("plugin"))
       case _ => "2.0.0"
     }),
     s3PublishBucket := "bondlink-maven-repo",
-    libraryDependencies += "software.amazon.awssdk" % "s3" % "2.46.11",
+    libraryDependencies += "software.amazon.awssdk" % "s3" % "2.46.21",
   )
   .enablePlugins(SbtPlugin)
